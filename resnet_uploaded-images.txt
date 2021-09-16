@@ -1,0 +1,87 @@
+Time taken : 2.002131223678589 in sconds
+Agrument 1: uploaded_images/
+Argument 2: resnet
+Argument 3: dognames.txt
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = resnet 
+ dogfile = dognames.txt
+filename = Bull_dog_02.jpg Pet label = bull dog 
+filename = Ipad_01.jpg Pet label = ipad 
+filename = Golden_fish_01.jpg Pet label = golden fish 
+filename = Bull_dog_01.jpg Pet label = bull dog 
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                Bull_dog_02.jpg  label:                   bull dog
+ 2 key:                    Ipad_01.jpg  label:                       ipad
+ 3 key:             Golden_fish_01.jpg  label:                golden fish
+ 4 key:                Bull_dog_01.jpg  label:                   bull dog
+
+     MATCH:
+
+ NOT A MATCH:
+
+               Bull_dog_02.jpg: 
+Real:                   bull dog   Classifier:                          boxer
+
+                   Ipad_01.jpg: 
+Real:                       ipad   Classifier:  television, television system
+
+            Golden_fish_01.jpg: 
+Real:                golden fish   Classifier:    goldfish, carassius auratus
+
+               Bull_dog_01.jpg: 
+Real:                   bull dog   Classifier:                          boxer
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+     MATCH:
+
+ NOT A MATCH:
+
+               Bull_dog_02.jpg: 
+Real:                   bull dog   Classifier:                          boxer  
+PetLabelDog: 1  ClassLabelDog: 0
+
+                   Ipad_01.jpg: 
+Real:                       ipad   Classifier:  television, television system  
+PetLabelDog: 0  ClassLabelDog: 0
+
+            Golden_fish_01.jpg: 
+Real:                golden fish   Classifier:    goldfish, carassius auratus  
+PetLabelDog: 0  ClassLabelDog: 0
+
+               Bull_dog_01.jpg: 
+Real:                   bull dog   Classifier:                          boxer  
+PetLabelDog: 1  ClassLabelDog: 0
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+{'n_correct_dog': 0, 'n_dogs_img': 2, 'n_correct_notdogs': 2, 'n_correct_breed': 0, 'n_match': 0, 'n_images': 4, 'n_notdogs_img': 2, 'pct_correct_dogs': 0.0, 'pct_match': 0.0, 'pct_correct_notdogs': 100.0, 'pct_correct_breed': 0.0, 'pct_correct_label_match': 0.0}
+{'Bull_dog_02.jpg': ['bull dog', 'boxer', 0, 1, 0], 'Ipad_01.jpg': ['ipad', 'television, television system', 0, 0, 0], 'Golden_fish_01.jpg': ['golden fish', 'goldfish, carassius auratus', 0, 0, 0], 'Bull_dog_01.jpg': ['bull dog', 'boxer', 0, 1, 0]}
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog:   0.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog:   0.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+
+*** Results Summary for CNN Model Architecture RESNET ***
+N Images            :   4
+N Dog Images        :   2
+N NOT Dog Images    :   2
+ 
+pct_correct_dogs: 0.0
+pct_match: 0.0
+pct_correct_notdogs: 100.0
+pct_correct_breed: 0.0
+pct_correct_label_match: 0.0
+
+INCORRECT Dog/NOT Dog Assignments:
+image bull dog is incorrectly classified as image boxer
+image bull dog is incorrectly classified as image boxer
+
+** Total Elapsed Runtime: 0:0:2
